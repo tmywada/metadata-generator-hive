@@ -1,0 +1,20 @@
+{
+    "chunk_size": 100,
+    "seed": 5963,
+    "file_path_bitmap": "./data/res_bitmap.bz",
+    "file_path_metadata": "./data/res_metadata.pckl",
+    "data_types_supported": [
+        {
+            "name": "float",
+            "is_numeric": true
+        },
+        {
+            "name": "integer",
+            "is_numeric": true
+        },
+        {
+            "name": "string",
+            "is_numeric": false
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "metadata-generator-hive"
+version = "0.1.0"
+description = "This is metadata generator"
+authors = ["Tomoya Wada"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "metadata_generator_hive"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mmh3 = "^4.0.0"
+pyroaring = "^0.4.2"
+black = "^23.3.0"
+flake8 = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
